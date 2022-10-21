@@ -1,9 +1,7 @@
 let mainList = document.querySelector("#categories");
 let listItem = mainList.children;
 console.log(`Number of categories: ${listItem.length}`);
-console.log("Number of categories: " + document.querySelectorAll(".item").length)
 
-////////////////////////
 
 let items = document.querySelectorAll(".item");
 items.forEach(item => {

@@ -13,5 +13,4 @@ let newEl = document.createElement("li");
 newEl.textContent = item;
 list.append(newEl)
 newEl.classList.add("item")
-console.log(newEl)
 })
